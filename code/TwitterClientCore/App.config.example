@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  
+  <appSettings>
+    <!-- Service Bus specific app setings for messaging connections -->
+    <add key="EventHubName" value="**REPLACE WITH EVENT HUB NAME**"/>
+
+    <!-- Storage Account settings -->
+    <add key="StAccountName" value="**REPLACE WITH STORAGE ACCOUNT NAME**"/>
+    <add key="StAccountContainer" value="**REPLACE WITH STORAGE ACCOUNT CONTAINER NAME**"/>
+    <add key="StAccountDirectory" value="**REPLACE WITH STORAGE ACCOUNT DIRECTORY NAME**"/>
+
+    <!-- CSV file settings -->
+    <add key="KeywordFilename" value="**REPLACE WITH FILENAME KEYWORD**"/>
+    <add key="TeamsSynonyms" value="**REPLACE WITH FILENAME TEAMS SYNONYMS**"/>
+
+    <!--Key Vault settings -->
+    <add key="KeyVaultName" value="**REPLACE WITH KEY VAULT NAME**"/>
+    <add key="StAccountSecretName" value="**REPLACE WITH SECRET NAME FOR STORAGE ACCOUNT SECRET**"/>
+    <add key="EhConnectionString" value="**REPLACE WITH SECRET NAME FOR EVENT HUB CONNECTION STRING**"/>
+    <add key="OauthConsumerKey" value="**REPLACE WITH SECRET NAME FOR TWITTER CONSUMER KEY**"/>
+    <add key="OauthConsumerSecret" value="**REPLACE WITH SECRET NAME FOR TWITTER CONSUMER SECRET**"/>
+    <add key="OauthToken" value="**REPLACE WITH SECRET NAME FOR TWITTER TOKEN**"/>
+    <add key="OauthTokenSecret" value="**REPLACE WITH SECRET NAME FOR TWITTER TOKEN SECRET**"/>
+  </appSettings>
+</configuration>

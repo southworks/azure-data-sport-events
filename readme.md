@@ -1,6 +1,8 @@
 # The sporting events application
 A compelling end to end **Data Ingestion, Processing and Visualization** sandbox scenario.
 
+In this repository you can find the reference implementation related to this [article](https://medium.com/southworks/sport-events-real-time-insights-with-azure-data-stack-c0173cd1d708).
+
 # General Overview 👓
 
 In the following sections, we will work on an application that integrates the different technologies used to process big amounts of data. In only one exercise, we integrate static data obtained from an API endpoint providing sporting events information, with real data provided by the Twitter developer API. Later, we transform the data by using Azure Databricks Notebooks, EventHub, and Stream Analytics services. Finally, the result is presented in a Power BI dashboard.
@@ -102,11 +104,18 @@ Please, **feel free to reach us out** so we can improve the workshop as a commun
 
 # Authors 🖋️
 
+## Reference Implementation
+
 - [Lucas Abella](https://github.com/LucasGabriel29)
 - [Mateo Cannata](https://github.com/CannataMateo)
 - [Gabriela Gutierrez](https://github.com/xdcarp)
 - [Mariano Iglesias](https://github.com/MarianoAIglesias1994)
 - [Diego Satizabal](https://github.com/dsatizabalsw)
+
+## Design, Planning & Feedback
+
+- [Nicolás Bello Camilletti](https://medium.com/@nbellocam)
+- [Mauro Krikorian](https://medium.com/@maurok)
 
 # Next Steps 🚶
 
